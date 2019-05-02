@@ -92,19 +92,19 @@ def alerts(ip, username, password, atype):
 		#####NAGIOS CODE FOR CRITICAL AND WARNING		
 		if state_ok == 0 and atype =='CRITICAL':
 			info = "NO CRITICAL ALARM ON NUTANIX CLUSTER " + ip
-			print('\x1b[32m'+info+'\x1b[0m')
+			print(info)
 			sys.exit(0)
 		elif not state_ok == 0 and atype =='CRITICAL':
 			info = "YOU HAVE " + str(state_ok) + " CRITICAL ON NUTANIX CLUSTER " + ip
-			print('\x1b[31m'+info+'\x1b[0m')
+			print(info)
 			sys.exit(2)
 		if state_ok == 0 and atype == 'WARNING':
 			info = "NO WARNING ALARM ON NUTANIX CLUSTER " + ip
-			print('\x1b[32m'+info+'\x1b[0m')			
+			print(info)			
 			sys.exit(0)
 		elif not state_ok == 0 and atype =='WARNING':
 			info = "YOU HAVE " + str(state_ok) + " WARNING ON NUTANIX CLUSTER " + ip
-			print('\x1b[33m'+info+'\x1b[0m')
+			print(info)
 			sys.exit(1)
 	except Exception as e:
 		print(f"Error: {e}")
