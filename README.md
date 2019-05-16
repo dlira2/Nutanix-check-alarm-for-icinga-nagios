@@ -23,5 +23,23 @@ Python Module :
      -import datetime 
      -import os 
      -import sys 
+     
+# HOW TO RUN SCRIPT EXAMPLE
+CRITICAL :
+python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype CRITICAL
+
+WARNING : 
+python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype WARNING
 
 
+# EXAMPLE CONFIG IN ICINGA:
+
+![alt text](https://github.com/dlira2/Nutanix-check-alarm-for-icinga-nagios/blob/master/HOST_PROFILE_ICINGA.png?raw=true)
+
+# EXAMPLE OUTPUT CLUSTER NORMAL
+
+![alt text](https://github.com/dlira2/Nutanix-check-alarm-for-icinga-nagios/blob/master/NUTANIX_OUTPUT_EXAMPLE%20NO%20ALARM.png?raw=true)
+
+# EXAMPLE OUTPUT CLUSTER WARNING
+
+![alt text](https://github.com/dlira2/Nutanix-check-alarm-for-icinga-nagios/blob/master/NUTANIX_OUTPUT_EXAMPLE_ALARM.png?raw=true)
