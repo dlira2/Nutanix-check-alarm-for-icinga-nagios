@@ -10,6 +10,8 @@ Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
 
 Nutanix can be in the WARNING and CRITICAL state at the same time. That is why the script must be executed with the variable "--atype" to indicate that alarms of the CRITICAL or WARNING type are being searched. At the NAGIOS level it is recommended to generate 2 revisions for CRITICAL and WARNING alarms.
 
+NOTE : When the administrator of the platform presses "resolve" the alarm, it will disappear in the output of the script.
+
 Requirements:
 
 python 3.6 or higher
