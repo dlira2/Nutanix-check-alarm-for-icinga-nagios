@@ -26,9 +26,11 @@ Python Module :
      
 # HOW TO RUN SCRIPT EXAMPLE
 CRITICAL :
+
      python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype CRITICAL
 
 WARNING : 
+
      python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype WARNING
 
 
