@@ -1,7 +1,7 @@
-#Nutanix Check for icinga/nagios V1.1
+#Nutanix Check for icinga/nagios V1.2
 Alarm collector associated with the Nutanix AHV cluster and VM´s using NUTANIX API
 
-# NUTANIX ALERT CHECK API ICINGA/NAGIOS v1.1
+# NUTANIX ALERT CHECK API ICINGA/NAGIOS v1.2
 
 Alarm collector associated with the Nutanix AHV cluster and VM´s.
 
@@ -29,11 +29,11 @@ Python Module :
 # HOW TO RUN SCRIPT EXAMPLE
 CRITICAL :
 
-     python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype CRITICAL
+     python NUTANIX_CHECK_API_v1.2.py --ip 10.26.1.139 --username someuser --password somepassword --atype CRITICAL
 
 WARNING : 
 
-     python NUTANIX_CHECK_API_v1.1.py --ip 10.26.1.139 --username someuser --password somepassword --atype WARNING
+     python NUTANIX_CHECK_API_v1.2.py --ip 10.26.1.139 --username someuser --password somepassword --atype WARNING
 
 
 # EXAMPLE CONFIG IN ICINGA:
