@@ -1,4 +1,4 @@
-# NUTANIX ALERT CHECK API ICINGA/NAGIOS v1.2
+# NUTANIX ALERT CHECK API ICINGA/NAGIOS v1.3
 
 Alarm collector associated with the Nutanix AHV/VMware cluster and VM´s using NUTANIX API
 
