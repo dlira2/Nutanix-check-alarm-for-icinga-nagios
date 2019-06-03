@@ -1,9 +1,6 @@
-#Nutanix Check for icinga/nagios V1.2
-Alarm collector associated with the Nutanix AHV cluster and VM´s using NUTANIX API
-
 # NUTANIX ALERT CHECK API ICINGA/NAGIOS v1.2
 
-Alarm collector associated with the Nutanix AHV cluster and VM´s.
+Alarm collector associated with the Nutanix AHV/VMware cluster and VM´s using NUTANIX API
 
 Script to monitor the alarms of the Nutanix platform using API. It is necessary that the NAGIOS / ICINGA have connectivity to the IP of the Prism Element by port 9440. It is recommended not to use the "admin" user for the connection.
 Tested on AOS 5.5.x , 5.8.x , 5.9.x and 5.10.x
