@@ -15,7 +15,8 @@ import datetime
 import os
 import sys
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 VERSION = '1.3'
 TIMEOUT = 30
